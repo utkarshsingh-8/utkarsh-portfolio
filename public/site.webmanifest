@@ -1,0 +1,20 @@
+{
+    "name": "Utkarsh Singh Portfolio",
+    "short_name": "Utkarsh",
+    "icons": [
+      {
+        "src": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml"
+      }
+    ],
+    "theme_color": "#0f172a",
+    "background_color": "#0f172a",
+    "display": "standalone"
+  }
+  
