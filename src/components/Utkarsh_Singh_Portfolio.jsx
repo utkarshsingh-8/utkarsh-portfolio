@@ -139,9 +139,9 @@ export default function Portfolio() {
         <SectionTitle title="Selected Projects" subtitle="Projects that showcase backend and full-stack engineering work" />
 
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <ProjectCard title="Elite Tube" tech="React · Node.js · MongoDB · WebSockets" desc="YouTube-like platform with streaming, real-time chat and JWT-based auth. Optimized for concurrent viewers." link="#" />
-          <ProjectCard title="P2P Carpooling DApp" tech="Solidity · Ethereum · JavaScript" desc="Blockchain-powered carpooling DApp with smart contracts for secure ride agreements and payments." link="#" />
-          <ProjectCard title="Code Junction" tech="MERN · Express · MongoDB" desc="Ed-tech platform with coding contests, interactive quizzes and student engagement features." link="#" />
+          <ProjectCard title="Scalable E-commerce Microservices Platform" tech="Node.js, Express.js, PostgreSQL, RabbitMQ, AWS ECS" desc="Built a microservices-based e-commerce backend using Node.js and PostgreSQL, with Redis caching and RabbitMQ for inter-service communication, designed to handle high traffic and low-latency order processing." link="#" />
+          <ProjectCard title="Real-Time Chat & Notification System" tech="Node.js, WebSockets, Redis Pub/Sub, JavaScript, AWS Lambda, SQS" desc="Developed a real-time chat backend using WebSockets and Redis Pub/Sub, supporting messaging, presence, and typing indicators, with AWS SQS and Lambda for asynchronous notifications and delivery receipts." link="#" />
+          <ProjectCard title="Food Ordering & Delivery Backend" tech="Node.js, JavaScript, PostgreSQL, Redis, Docker, AWS Lambda, SQS" desc="Designed a scalable food ordering backend with Node.js and PostgreSQL, implementing Redis caching and event-driven workflows using AWS SQS and Lambda to handle real-time order updates and peak traffic efficiently." link="#" />
         </div>
       </section>
 
@@ -152,7 +152,7 @@ export default function Portfolio() {
 
           <div className="mt-8 space-y-6">
             <TimelineItem
-              period="Feb 2025 - Present"
+              period="Feb 2025 - December 2025"
               role="Software Engineer — Mindnerves Technology"
               location="Pune, Maharashtra, India"
               bullets={[
